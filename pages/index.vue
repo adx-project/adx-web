@@ -45,9 +45,8 @@
               <h4>ADX Data Standards</h4>
               <p>
                 The ADX Data Standards (<strong>ADX-DS)</strong> is a standardized set of
-                databases,
-                variables,
-                and formats that allow for easy exchange of data around Anomalous Observations (AOs).
+                databases, variables, and formats that allow for easy exchange of data around Anomalous
+                Observations (AOs) reported by collaborators.
               </p>
               <NuxtLink to="adx-ds" class="btn-learn-more">Learn More</NuxtLink>
             </div>
