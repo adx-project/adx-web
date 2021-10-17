@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <NavBar/>
+    <Breadcrumbs/>
+    <Nuxt/>
+    <ScrollUp/>
+    <Footer/>
+  </div>
+</template>
