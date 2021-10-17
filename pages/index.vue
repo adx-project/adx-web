@@ -251,7 +251,7 @@
           <div class="row">
             <div class="col-lg-9 text-center text-lg-start">
               <h3>Want to be part of it?</h3>
-              <p>There are many different ways to collaborate with the project. From helping us developing the website
+              <p>There are many different ways to collaborate with the ADX project. From helping us developing the website
                 translate the project to your language, give feedback on what's already done and much more.</p>
               <p>We're just starting. There are many things to be done. Joins us!</p>
             </div>
