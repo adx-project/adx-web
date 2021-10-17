@@ -42,9 +42,9 @@
               <NuxtLink to="about" class="btn-learn-more">Learn More</NuxtLink>
             </div>
             <div class="col-lg-4 pt-4 pt-lg-0">
-              <h4>ADX Data Standards (ADX-DS)</h4>
+              <h4>ADX Data Standards</h4>
               <p>
-                The Anomalous Data Exchange Data Standards (<strong>ADX-DS)</strong> is a standardized set of
+                The ADX Data Standards (<strong>ADX-DS)</strong> is a standardized set of
                 databases,
                 variables,
                 and formats that allow for easy exchange of data around Anomalous Observations (AOs).
@@ -52,7 +52,7 @@
               <NuxtLink to="adx-ds" class="btn-learn-more">Learn More</NuxtLink>
             </div>
             <div class="col-lg-4 pt-4 pt-lg-0">
-              <h4>ADX Data Warehouse (ADX-DW)</h4>
+              <h4>ADX Data Warehouse</h4>
               <p>
                 ADX Data Warehouse (<strong>ADX-DW</strong>) connects the scientific community
                 to individuals and organizations that hold credible anomalous observations' data. All data
