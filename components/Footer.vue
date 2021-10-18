@@ -58,7 +58,7 @@
           <div class="col-lg-3 col-md-6">
             <h4>Open Source</h4>
             <p>Feel free to explore the project's GitHub repository at
-              <strong><a href="https://www.github.com/adx-project/adx-dw">github.com/adx-project/adx-dw</a></strong>
+              <strong><a href="https://www.github.com/adx-project/adx-ds">github.com/adx-project/adx-ds</a></strong>
             </p>
           </div>
         </div>
