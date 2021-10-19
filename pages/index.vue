@@ -70,7 +70,9 @@
 
           <div class="section-title">
             <h2>Observations</h2>
-            <p>The ADX project maintains a repository of different types of observations</p>
+            <p>The ADX-DS model handles observations made from any platform and has specific
+              metadata according to their type. Observations are grouped as below, with common
+              tables to describe the observer, sensors, and phenomena observed.</p>
           </div>
 
           <div class="row">
@@ -79,13 +81,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bxs-landscape"></i></div>
                 <h4>Land observations</h4>
-                <p>Land observations are the most common among the civilian population, but somehow the less
-                  trustworthy. There's a lot of work behind to verify their precision. So many claims on observations
-                  have been recorded over the decades but they rarely are
-                  supported by anything other than the observer's description.</p><br/>
-
-                <p>Nonetheless, a correlation might be done between multiple observations to increase
-                  credibility and become part of a single "event"</p>
+                <p> Land observations assume the observer to be fixed or moving at a low velocity in relation to the
+                  object. The
+                  angle of elevation and azimuth of the observation can be described in the object position
+                  table. Additional details such as weather conditions, object description, and other common
+                  tables will be included in land observations..</p><br/>
               </div>
             </div>
 
@@ -94,13 +94,12 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bxs-plane-alt"></i></div>
                 <h4>Air observations</h4>
-                <p>Air observations are the second most common type of observation. Dozens of pilots both
-                  civilians an military have reported encounters with non identifiable objects during a
-                  flight.</p><br/>
-                <p>Many of this observations are supported by a number of some kind of instrumental data. In
-                  civilian and commercial flights is usual to have some kind of cockpit recording while in
-                  military operations video recordings, RADAR information and other media are also
-                  common.</p>
+                <p>Many pilots both civilians and military have reported encounters with non identifiable objects
+                  during flight.</p><br/>
+                <p>Airborne observations are supported by instrument data which can be
+                  described in the sensor table. ADS-B files and cockpit/radio transmission recordings can be
+                  attached to the observation. External sensors such as radar systems can also be linked to
+                  aerial observations to corroborate the data and for an 'event' of grouped observations.</p>
               </div>
             </div>
 
@@ -109,10 +108,11 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bxs-ship"></i></div>
                 <h4>Sea observations</h4>
-                <p>Similarly to the air observations, sea observations happen often. And in the same way,
-                  they can be reported by civilian or military vessels' crews. This kind of observations is often be
-                  supported by the same kind of data as the air observations,
-                  including any specific on board instrumental such as SONAR equipment.</p>
+                <p>Similarly to the air observations, sea observations happen often. And in the same way, they
+                  can be reported by civilian or military vessels' crews. This kind of observation is supported
+                  by the same types of data as air observations, including any specific on board instrument
+                  such as SONAR equipment. The Sea and Air tables share common position metadata
+                  position tables to describe the position of the ship.</p>
               </div>
             </div>
 
@@ -121,12 +121,10 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bxs-planet"></i></div>
                 <h4>Space observations</h4>
-                <p>Space observations happen too. With an rapidly increasing instruments in orbit such as
-                  meteorological, private and military satellites, anomalous observations are not uncommon in
-                  space.</p><br/>
-                <p>Unexpected data results or bizarre instrumental malfunctions may be analyzed and
-                  correlated to other types of observations. A great advantage of this observations is the
-                  great precision in the data output and the huge space or Earth range they cover.</p>
+                <p>With the rapidly increasing number of instruments in orbit such as meteorological, private
+                  and military satellites, anomalous observations are not uncommon in space. In this table we
+                  record the CTCSS file describing the spacecraft’s motion as well as any sensors onboard
+                  the craft.</p>
               </div>
             </div>
           </div>
