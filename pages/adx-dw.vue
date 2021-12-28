@@ -1,6 +1,13 @@
 <template>
   <section class="inner-page">
     <div class="container">
+      <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0"
+           data-aos="fade-up" data-aos-delay="200">
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+        </div>
+      </div>
+      <br/>
       <p>
         The purpose of the <strong>ADX Data Warehouse (ADX-DW)</strong> is to connect the scientific community
         to individuals and organizations that hold credible anomalous observation data.
@@ -45,6 +52,13 @@
         <NuxtLink to="data-policy">read our Data Policy</NuxtLink>
         below for more specifics what we intend to include in the main ADX-DW dataset.
       </p>
+    </div>
+    <br/>
+    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0"
+         data-aos="fade-up" data-aos-delay="200">
+      <div class="d-flex justify-content-center justify-content-lg-start">
+        <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+      </div>
     </div>
     <Contact/>
   </section>
