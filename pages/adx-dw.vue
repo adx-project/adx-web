@@ -1,10 +1,12 @@
 <template>
   <section class="inner-page">
     <div class="container">
-      <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0"
-           data-aos="fade-up" data-aos-delay="200">
-        <div class="d-flex justify-content-center justify-content-lg-start">
-          <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+      <div class="row">
+        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0"
+             data-aos="fade-up" data-aos-delay="200">
+          <div class="d-flex justify-content-center">
+            <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+          </div>
         </div>
       </div>
       <br/>
@@ -52,12 +54,14 @@
         <NuxtLink to="data-policy">read our Data Policy</NuxtLink>
         below for more specifics what we intend to include in the main ADX-DW dataset.
       </p>
-    </div>
-    <br/>
-    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0"
-         data-aos="fade-up" data-aos-delay="200">
-      <div class="d-flex justify-content-center justify-content-lg-start">
-        <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+      <br/>
+      <div class="row">
+        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0"
+             data-aos="fade-up" data-aos-delay="200">
+          <div class="d-flex justify-content-center">
+            <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+          </div>
+        </div>
       </div>
     </div>
     <Contact/>
