@@ -10,7 +10,7 @@
             <h2>Normalizing the unusual</h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               <NuxtLink to="about" class="btn-get-started scrollto">Learn More</NuxtLink>
-              <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+              <a href="https://adxproject.knack.com/login#view-records" target="_blank" class="btn-get-involved scrollto">Go to the app</a>
             </div>
           </div>
         </div>

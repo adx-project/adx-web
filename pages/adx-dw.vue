@@ -5,7 +5,7 @@
         <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0"
              data-aos="fade-up" data-aos-delay="200">
           <div class="d-flex justify-content-center">
-            <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+            <a href="https://adxproject.knack.com/login#view-records" target="_blank" class="btn-get-involved scrollto">Go to the app</a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
         <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0"
              data-aos="fade-up" data-aos-delay="200">
           <div class="d-flex justify-content-center">
-            <NuxtLink to="app" target="_blank" class="btn-get-involved scrollto">Go to the app</NuxtLink>
+            <a href="https://adxproject.knack.com/login#view-records" target="_blank" class="btn-get-involved scrollto">Go to the app</a>
           </div>
         </div>
       </div>
